@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width,
+initial-scale=1.0">
+
+</head>
+<body>
+
+ <script>
+ const now = new Date();
+ const currentHour = now.getHours();
+ const name = "DONA MANSUR";
+ let greeting = "Good morning";
+ if (currentHour >= 12) {
+ greeting = "Good afternoon";
+ }
+ const greetingMessage = `${greeting}, ${name}!`;
+ document.write(`<p>${greetingMessage}</p>`);
+ </script>
+</body>
+</html>
